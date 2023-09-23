@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    line-height: 1.4;
+    scroll-behavior: smooth;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.logo img{
+    height: 80px;
+    border: 1px solid #000;
+    border-radius: 15px;
+}
+.center-nav{
+    display: flex;
+}
+.search{
+    display: flex;
+    gap: 3px;
+    height: 50px;
+}
+.search input{
+    min-width: 600px;
+    padding: 10px 20px;
+    border: 0.5 solid #ccc;
+    border-radius: 10px;
+}
+.search button{
+    border: none;
+    padding: 1px 20px;
+    border: 0.5 solid #ccc;
+}
+.search button img{    
+    width: 50px;
+    background: #ccc;
+}
+.mic{
+    padding: 10px;
+    height: 20px;
+    border: 0.5 solid #ccc;
+    display: grid;
+    place-items: center;
+    margin-left: 15px;
+    background: rgb(240, 239, 239);
+}
+.mic img{
+    width: 30px;
+}
+.side-nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.tags{
+    display: flex;
+    padding: 10px 20px;
+    gap: 15px;
+    border-top: 1px solid #ccc;
+}
+.tag{
+    padding: 5px 15px;
+    border-radius: 20px;
+    border: 1px solid rgb(22, 22, 22);
+}
+.dark{
+    background: #000;
+    color: white;
+}
+.light{
+    background: #afafaf;
+}
+.container{
+    display: flex;
+
+}
+aside{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.side-icons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.side-icons img{
+    width: 30px;
+}
+.side-icons p{
+    font-size: 10px;
+    margin-top: -5px;
+}
+.bars{
+    margin-top: 20px;
+}
+.main-container{
+    width: 100%;
+}
+main{
+    min-height: 100vh;
+    background: rgd(240, 238, 238);
+}
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+.card{
+    padding: 10px;
+    max-width: 320px;
+    display: flex;
+    flex-direction: column;
+}
+.avatar-content{
+    padding-top: 10px;
+    display: flex;
+    gap: 5px;
+}
+.card h3{
+    font-size: 20px;
+}
+.channel-name{
+    font-size: 16px;
+    font-weight: bold;
+}
+.content-status{
+    display: flex;
+    font-size: 14px;
+    gap: 10px;
+}
+main{
+    display: flex;
+}
